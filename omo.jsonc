@@ -47,7 +47,7 @@
           "variant": "default",
         },
         "model": "opencode-go/kimi-k2.7-code",
-        "models": [
+        "fallback_models": [
           "opencode-go/qwen3.7-plus",
           "opencode-go/glm-5.2",
           "opencode-go/qwen3.6-plus",
@@ -59,7 +59,7 @@
       "prometheus": {
         "prompt_append": "Always interview first. Validate scope before planning.",
         "model": "opencode-go/glm-5.3",
-        "models": [
+        "fallback_models": [
           "opencode-go/glm-5.2",
           "opencode-go/kimi-k2.7-code",
           "opencode-go/qwen3.7-max",
